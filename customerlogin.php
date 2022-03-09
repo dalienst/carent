@@ -10,9 +10,9 @@ header("location: index.php"); //Redirecting
 <html lang="en" dir="ltr">
 
     <head>
-        <title> Customer Login | Car Rental </title>
-    </head>
-    <link rel="shortcut icon" type="image/png" href="assets/img/P.png.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Customer Login</title>
     <link rel="stylesheet" type="text/css" href="assets/css/customerlogin.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -20,8 +20,8 @@ header("location: index.php"); //Redirecting
     <link rel="stylesheet" href="assets/w3css/w3.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <body background="assets/img/blank.png">
+    </head>
+    <body>
                  <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">

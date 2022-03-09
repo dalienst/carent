@@ -4,7 +4,8 @@
   <head>
     <title> Customer Signup</title>
   </head>
-  <link rel="shortcut icon" type="image/png" href="assets/img/P.png.png">
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type = "text/css" href ="assets/css/manager_registered_success.css">
   <link rel="stylesheet" type = "text/css" href ="assets/bootstrap/css/bootstrap.min.css">
   <script type="text/javascript" src="assets/js/jquery.min.js"></script>

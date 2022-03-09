@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 .form-area {
     background-color: #FAFAFA;
     padding: 10px 40px 60px;

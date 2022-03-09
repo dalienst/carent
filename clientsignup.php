@@ -2,9 +2,9 @@
 <html lang="en" dir="ltr">
 
 <head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Employee Signup</title>
-</head>
-<link rel="shortcut icon" type="image/png" href="assets/img/P.png.png">
  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -12,6 +12,7 @@
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/clientlogin.css">
+</head>
 <body>
      <!-- Navigation -->
      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">

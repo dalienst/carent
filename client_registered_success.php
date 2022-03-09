@@ -2,40 +2,15 @@
 <html lang="en" dir="ltr">
 
   <head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Employee Signup</title>
-    <link rel="shortcut icon" type="image/png" href="assets/img/P.png.png">
-</head>
-
-  <link rel="stylesheet" type = "text/css" href ="assets/css/manager_registered_success.css">
-  <link rel="stylesheet" type = "text/css" href ="assets/bootstrap/css/bootstrap.min.css">
-  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type = "text/css" href ="assets/css/manager_registered_success.css">
+    <link rel="stylesheet" type = "text/css" href ="assets/bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
   <body>
-
-  <!--Back to top button..................................................................................-->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-    </button>
-  <!--Javacript for back to top button....................................................................-->
-    <script type="text/javascript">
-      window.onscroll = function()
-      {
-        scrollFunction()
-      };
-
-      function scrollFunction(){
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("myBtn").style.display = "block";
-        } else {
-          document.getElementById("myBtn").style.display = "none";
-        }
-      }
-
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
 
   <!-- Navigation -->
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
@@ -47,7 +22,7 @@
                 <a class="navbar-brand page-scroll text-success" href="index.php">
                    NemCo Car Rentals </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- Collect the nav links, forms -->
 
             <?php
                 if(isset($_SESSION['login_client'])){

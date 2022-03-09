@@ -9,7 +9,6 @@ $conn = Connect();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NemCo Car Rentals</title>
-    <link rel="shortcut icon" type="image/png" href="assets/img/P.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -19,7 +18,7 @@ $conn = Connect();
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body class=".navbar-fixed-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
@@ -42,11 +41,11 @@ $conn = Connect();
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="#"><span class="bi bi-person-fill"></span> Welcome <?php echo $_SESSION['login_client']; ?></a>
+                        <a href="#"> Welcome <?php echo $_SESSION['login_client']; ?></a>
                     </li>
                     <li>
                     <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="bi bi-person-fill"></span> Control Panel <span class="caret"></span> </a>
+            <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Control Panel <span class="caret"></span> </a>
                 <ul class="dropdown-menu">
               <li> <a href="entercar.php">Add Car</a></li>
               <li> <a href="enterdriver.php"> Add Driver</a></li>
@@ -57,7 +56,7 @@ $conn = Connect();
           </ul>
                     </li>
                     <li>
-                        <a href="logout.php"><span class="bi bi-box-arrow-right"></span> Logout</a>
+                        <a href="logout.php">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -72,7 +71,7 @@ $conn = Connect();
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="#"><span class="bi bi-person-fill"></span> Welcome <?php echo $_SESSION['login_customer']; ?></a>
+                        <a href="#">Welcome <?php echo $_SESSION['login_customer']; ?></a>
                     </li>
                     <ul class="nav navbar-nav">
             <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> History <span class="caret"></span> </a>
@@ -83,7 +82,7 @@ $conn = Connect();
             </li>
           </ul>
                     <li>
-                        <a href="logout.php"><span class="bi bi-box-arrow-right"></span> Logout</a>
+                        <a href="logout.php">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -117,9 +116,6 @@ $conn = Connect();
     </nav>
         <header class="intro">
             <div class="intro-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="introheader"></div>
                             <h1 class="text-success" style="font-size: 155px;">Car Rentals</h1>
                             <p class="intro-text text-success">
                                 Online Car Rental Service
@@ -132,9 +128,8 @@ $conn = Connect();
                 </div>
             </div>
         </header>
-    </div>
+                </div>
 
-    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
         <h3 style="text-align:center;" class="text-success">Available Cars</h3>
 <br>
         <section class="menu-content">

@@ -9,8 +9,9 @@ if(isset($_SESSION['login_client'])){
 <html lang="en" dir="ltr">
 
     <head>
-        <title> Employee Login</title>
-        <link rel="shortcut icon" type="image/png" href="assets/img/P.png.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Employee Login</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -158,7 +159,7 @@ if(isset($_SESSION['login_client'])){
             </div>
         </div>
     </body>
-    <footer class="site-footer">
+    <footer class="card-footer">
         <div class="container">
             <hr>
             <div class="row">

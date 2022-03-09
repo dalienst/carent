@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 body,
 html {
     height: 100%;
@@ -25,33 +31,4 @@ body {
 #myBtn:hover {
     background-color: darkgreen;
     color: white;
-}
-
-.bg-4 {
-    background-color: #2f2f2f;
-    color: #ffffff;
-}
-
-footer {
-    display: block;
-}
-
-.mypanel {
-    border: 1px solid #eaeaec;
-    margin: -1px 19px 3px -1px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-    background-color: #FAFAFA;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-input {
-    border: 5px solid white;
-}
-
-.box {
-    background-color: #FAFAFA;
-    padding: 10px 40px 60px;
-    margin: 10px 0px 60px;
-    border: 1px solid GREY;
 }
