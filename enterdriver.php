@@ -14,6 +14,19 @@ include('session_client.php'); ?>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="assets/css/clientpage.css" />
+<style>
+  thead, 
+  tbody {
+    display: inline-block;
+    margin-left: 70px;
+  }
+  th,
+  td {
+    width: 170px; 
+    text-align: center;
+    padding: 5px;
+  }
+</style>
 </head>
 <body>
  <!-- Navigation -->
@@ -113,22 +126,27 @@ include('session_client.php'); ?>
           <h3 style="margin-bottom: 25px; text-align: center; font-size: 30px;" class="text-success"> Enter Driver Details </h3>
 
           <div class="form-group">
+            <label for="driver_name">Driver Name</label>
             <input type="text" class="form-control" id="driver_name" name="driver_name" placeholder="Driver Name " required>
           </div>
 
           <div class="form-group">
+            <label for="dl_number">DL Number</label>
             <input type="text" class="form-control" id="dl_number" name="dl_number" placeholder="Driving License Number" required>
           </div>     
 
           <div class="form-group">
+            <label for="driver_phone">Driver Phone Number</label>
             <input type="text" class="form-control" id="driver_phone" name="driver_phone" placeholder="Contact" required>
           </div>
 
           <div class="form-group">
+            <label for="driver_address">Driver Address</label>
             <input type="text" class="form-control" id="driver_address" name="driver_address" placeholder="Address" required>
           </div>
 
           <div class="form-group">
+            <label for="driver_gender">Driver Gender</label>
             <input type="text" class="form-control" id="driver_gender" name="driver_gender" placeholder="Gender" required>
           </div>
 
@@ -152,30 +170,28 @@ if (mysqli_num_rows($result) > 0) {
   <table class="table table-striped">
     <thead class="thead-dark">
       <tr>
-        <th>     </th>
-        <th class="text-success"> Name</th>
-        <th class="text-success"> Gender </th>
-        <th class="text-success"> License No. </th>
-        <th class="text-success"> Contact </th>
+        <th  class="text-success"> Name</th>
+        <th  class="text-success"> Gender </th>
+        <th  class="text-success"> License No. </th>
+        <th  class="text-success"> Contact </th>
         <th class="text-success"> Address </th>
-        <th class="text-success"> Availability </th>
+        <th  class="text-success"> Availability </th>
       </tr>
     </thead>
 
-    <?PHP
+    <?php
       //OUTPUT DATA OF EACH ROW
       while($row = mysqli_fetch_assoc($result)){
     ?>
 
   <tbody>
     <tr>
-      <td><?php echo $row["driver_name"]; ?></td>
+      <td ><?php echo $row["driver_name"]; ?></td>
       <td><?php echo $row["driver_gender"]; ?></td>
       <td><?php echo $row["dl_number"]; ?></td>
       <td><?php echo $row["driver_phone"]; ?></td>
       <td><?php echo $row["driver_address"]; ?></td>
       <td><?php echo $row["driver_availability"]; ?></td>
-      
     </tr>
   </tbody>
   

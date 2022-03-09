@@ -14,6 +14,11 @@ include('session_client.php'); ?>
   <script type="text/javascript" src="assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/clientpage.css" />
+    <style>
+      tbody {
+       margin-left: 20px;
+     }
+      </style>
 </head>
 <body>
 
@@ -115,26 +120,32 @@ include('session_client.php'); ?>
           <h3 style="margin-bottom: 25px; text-align: center; font-size: 30px;" class="text-success"> Please Provide Your Car Details. </h3>
 
           <div class="form-group">
+            <label for="car_name">Car Name</label>
             <input type="text" class="form-control" id="car_name" name="car_name" placeholder="Car Name " required>
           </div>
 
           <div class="form-group">
+            <label for="car_nameplate">Car Nameplate</label>
             <input type="text" class="form-control" id="car_nameplate" name="car_nameplate" placeholder="Vehicle Number Plate" required>
           </div>     
 
           <div class="form-group">
+            <label for="ac_price">AC Price</label>
             <input type="text" class="form-control" id="ac_price" name="ac_price" placeholder="AC Fare per KM (Ksh)" required>
           </div>
 
           <div class="form-group">
+            <label for="n0n_ac_price">Non-AC Price</label>
             <input type="text" class="form-control" id="non_ac_price" name="non_ac_price" placeholder="Non-AC Fare per KM (Ksh)" required>
           </div>
 
           <div class="form-group">
+            <label for="ac_price_per_day">AC-Price per day</label>
             <input type="text" class="form-control" id="ac_price_per_day" name="ac_price_per_day" placeholder="AC Fare per day (Ksh)" required>
           </div>
 
           <div class="form-group">
+            <label for="non_ac_price_per_day">Non-AC price per day</label>
             <input type="text" class="form-control" id="non_ac_price_per_day" name="non_ac_price_per_day" placeholder="Non-AC Fare per day (Ksh)" required>
           </div>
 
@@ -163,32 +174,30 @@ if (mysqli_num_rows($result) > 0) {
   <table class="table table-striped">
     <thead class="thead-dark">
       <tr>
-        <th></th>
-        <th width="24%" class="text-success"> Name</th>
-        <th width="15%" class="text-success"> Nameplate </th>
+        <th width="15%" class="text-success"> Name</th>
+        <th width="15%"  class="text-success"> Nameplate </th>
         <th width="13%" class="text-success"> AC Fare (/km) </th>
         <th width="17%" class="text-success"> Non-AC Fare (/km)</th>
-        <th width="13%" class="text-success"> AC Fare (/day)</th>
+        <th width="13%"  class="text-success"> AC Fare (/day)</th>
         <th width="17%" class="text-success"> Non-AC Fare (/day)</th>
         <th width="1%" class="text-success"> Availability </th>
       </tr>
     </thead>
 
-    <?PHP
+    <?php
       //OUTPUT DATA OF EACH ROW
       while($row = mysqli_fetch_assoc($result)){
     ?>
 
   <tbody>
     <tr>
-      <td><?php echo $row["car_name"]; ?></td>
+      <td><?php echo $row["car_name"];?></td>
       <td><?php echo $row["car_nameplate"]; ?></td>
       <td><?php echo $row["ac_price"]; ?></td>
       <td><?php echo $row["non_ac_price"]; ?></td>
       <td><?php echo $row["ac_price_per_day"]; ?></td>
       <td><?php echo $row["non_ac_price_per_day"]; ?></td>
       <td><?php echo $row["car_availability"]; ?></td>
-      
     </tr>
   </tbody>
   <?php } ?>

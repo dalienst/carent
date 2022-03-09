@@ -12,5 +12,5 @@ function Connect()
 
 	return $conn;
 }
-echo '<span style="color:#0A0A0A;">No Error Connecting to the Database! <br> Database Connected Successfully! </p></span>';
+// echo '<span style="color:#0A0A0A;">No Error Connecting to the Database! <br> Database Connected Successfully! </p></span>';
 ?>
