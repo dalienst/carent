@@ -16,6 +16,7 @@ $conn = Connect();
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" media="screen" href="assets/css/clientpage.css" />
+<title>Return Car</title>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation -->

@@ -14,6 +14,7 @@ include('session_client.php'); ?>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="assets/css/clientpage.css" />
+<title>Enter Driver</title>
 <style>
   thead, 
   tbody {

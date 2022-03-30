@@ -92,7 +92,7 @@
                     </li>
                     <ul class="nav navbar-nav">
             <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Garage <span class="caret"></span> </a>
-                <ul class="dropdown-menu text-success">
+                <ul class="dropdown-menu">
               <li> <a href="prereturncar.php">Return Now</a></li>
               <li> <a href="mybookings.php"> My Bookings</a></li>
             </ul>
@@ -110,8 +110,8 @@
             ?>
 
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="text-success">
+                <ul class="nav navbar-nav text-success">
+                    <li">
                         <a href="index.php">Home</a>
                     </li>
                     <li>

@@ -19,6 +19,7 @@ if(!isset($_SESSION['login_customer'])){
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bookingconfirm.css" />
+    <title>Nemco Bookings</title>
 </head>
 
 <body>

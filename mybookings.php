@@ -138,7 +138,7 @@ $conn = Connect();
 <th width="10%" class="text-success">Fare</th>
 <th width="15%" class="text-success">Distance (kms)</th>
 <th width="15%" class="text-success">Number of Days</th>
-<th width="15%" class="text-success">Total Amount</th>
+<th width="15%" class="text-success">Total Amount (Ksh.)</th>
 </tr>
 </thead>
 <?php
@@ -170,7 +170,7 @@ $conn = Connect();
             ?>
         <div class="container">
         <h1 class="text-center text-warning">You have not rented any cars till now!</h1>
-        <p class="text-center text-warning"> Please rent cars in order to view your data here. </p>
+        <p class="text-center text-warning"> Please rent cars in order to view your rental data here. </p>
       </div>
     </div>
 

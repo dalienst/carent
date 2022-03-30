@@ -154,8 +154,6 @@ if (!empty($_FILES["uploadedimage"]["name"])) {
     } 
 
 }
-
-
 // Taking car_id from cars
 
 $query1 = "SELECT car_id from cars where car_nameplate = '$car_nameplate'";

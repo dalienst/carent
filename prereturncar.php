@@ -16,6 +16,7 @@ $conn = Connect();
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" media="screen" href="assets/css/clientpage.css" />
+<title>Pre-Return Car</title>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation -->
@@ -134,7 +135,7 @@ $conn = Connect();
 <th width="30%" class="text-success">Car</th>
 <th width="20%" class="text-success">Rent Start Date</th>
 <th width="20%" class="text-success">Rent End Date</th>
-<th width="20%" class="text-success">Fare</th>
+<th width="20%" class="text-success">Fare Charge</th>
 <th width="10%" class="text-success">Action</th>
 </tr>
 </thead>

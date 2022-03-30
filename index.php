@@ -8,7 +8,7 @@ $conn = Connect();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NemCo Car Rentals</title>
+    <title>NemCo Car Rental</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -116,8 +116,8 @@ $conn = Connect();
     </nav>
         <header class="intro">
             <div class="intro-body">
-                            <h1 class="text-success" style="font-size: 155px;">Car Rentals</h1>
-                            <p class="intro-text text-success">
+                            <h1 class="text-success" style="font-size: 155px;margin-top: 150px;">Car Rentals</h1>
+                            <p class="intro-text text-success" >
                                 Online Car Rental Service
                             </p>
                             <a class="btn btn-circle blink">
@@ -163,7 +163,7 @@ $conn = Connect();
             <?php }}
             else {
                 ?>
-<h1 class="text-success"> No cars available!</h1>
+<h1 class="text-success">There are No cars available!</h1>
                 <?php
             }
             ?>                                   

@@ -176,16 +176,16 @@ else {
     </div>
     <br>
 
-    <h2 class="text-center text-success"> Thank you for choosing Car Rentals!</h2>
+    <h2 class="text-center text-success"> Thank you for choosing NemCo Car Rentals!</h2>
 
     <div class="container">
-        <h5 class="text-center text-success">Please read the following information about your rental.</h5>
+        <h5 class="text-center text-success">Please read the following information about your Car Rental.</h5>
             <div class="col-md-10" style="float: none; margin: 0 auto; text-align: center;">
                 <h3 style="color: orange;">Your booking has been received and placed into order processing system.</h3>
                 <br>
-                <h4 class="text-success">Please make a note of your rental now</h4>
+                <h4 class="text-success">Please make a note of your rental now!</h4>
                 <br>
-                <h3 style="color: orange;">Invoice</h3>
+                <h3 style="color: orange;">Invoice!</h3>
                 <br>
             </div>
             <div class="col-md-10" style="float: none; margin: 0 auto; ">

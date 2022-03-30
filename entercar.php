@@ -120,32 +120,32 @@ include('session_client.php'); ?>
           <h3 style="margin-bottom: 25px; text-align: center; font-size: 30px;" class="text-success"> Please Provide Your Car Details. </h3>
 
           <div class="form-group">
-            <label for="car_name">Car Name</label>
+            <label for="car_name">Car Name.</label>
             <input type="text" class="form-control" id="car_name" name="car_name" placeholder="Car Name " required>
           </div>
 
           <div class="form-group">
-            <label for="car_nameplate">Car Nameplate</label>
+            <label for="car_nameplate">Car Nameplate.</label>
             <input type="text" class="form-control" id="car_nameplate" name="car_nameplate" placeholder="Vehicle Number Plate" required>
           </div>     
 
           <div class="form-group">
-            <label for="ac_price">AC Price</label>
+            <label for="ac_price">AC Price.</label>
             <input type="text" class="form-control" id="ac_price" name="ac_price" placeholder="AC Fare per KM (Ksh)" required>
           </div>
 
           <div class="form-group">
-            <label for="n0n_ac_price">Non-AC Price</label>
+            <label for="n0n_ac_price">Non-AC Price.</label>
             <input type="text" class="form-control" id="non_ac_price" name="non_ac_price" placeholder="Non-AC Fare per KM (Ksh)" required>
           </div>
 
           <div class="form-group">
-            <label for="ac_price_per_day">AC-Price per day</label>
+            <label for="ac_price_per_day">AC-Price per day.</label>
             <input type="text" class="form-control" id="ac_price_per_day" name="ac_price_per_day" placeholder="AC Fare per day (Ksh)" required>
           </div>
 
           <div class="form-group">
-            <label for="non_ac_price_per_day">Non-AC price per day</label>
+            <label for="non_ac_price_per_day">Non-AC price per day.</label>
             <input type="text" class="form-control" id="non_ac_price_per_day" name="non_ac_price_per_day" placeholder="Non-AC Fare per day (Ksh)" required>
           </div>
 

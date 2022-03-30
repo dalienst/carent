@@ -7,7 +7,7 @@ if(!isset($_SESSION['login_customer'])){
     header("location: customerlogin.php");
 }
 ?> 
-<title>Book Car </title>
+<title>NemCo Bookings </title>
 <head>
     
 <meta charset="utf-8">

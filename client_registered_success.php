@@ -4,7 +4,7 @@
   <head>
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Employee Signup</title>
+    <title> Employee Register</title>
     <link rel="stylesheet" type = "text/css" href ="assets/css/manager_registered_success.css">
     <link rel="stylesheet" type = "text/css" href ="assets/bootstrap/css/bootstrap.min.css">
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
