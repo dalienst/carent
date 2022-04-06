@@ -125,7 +125,7 @@ $success = $conn->query($query);
 if (!$success){ ?>
     <div class="container">
 	<div style="text-align: center;">
-        Car with the same vehicle number already exists!
+        Car with the same vehicle number plate already exists!
         <br><br>
         <a href="entercar.php" class="btn btn-default"> Go Back </a>
 </div>

@@ -163,7 +163,7 @@ $conn = Connect();
             <?php }}
             else {
                 ?>
-<h1 class="text-success">There are No cars available!</h1>
+<h1 class="text-success">There are No cars Available!</h1>
                 <?php
             }
             ?>                                   
